@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Save2Project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": {
     "512": "./icon.png"
   },
@@ -12,7 +12,7 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["activeTab", "downloads", "storage"],
+  "permissions": ["activeTab", "downloads"],
   "web_accessible_resources": [
     {
       "resources": ["welcome.html"],
